@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: guestbook
+  name: development
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/argoproj/argocd-example-apps.git
+    repoURL: https://github.com/helioPompei/Kubernetes-Lab
+    path: Infrastructure
     targetRevision: HEAD
-    path: guestbook
   destination:
     server: https://kubernetes.default.svc
-    namespace: guestbook
+    namespace: development

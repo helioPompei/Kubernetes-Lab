@@ -1,0 +1,3 @@
+============ PERSONAL GIT ============
+eval $(ssh-agent)
+ssh-add ~/.ssh/helio-github
