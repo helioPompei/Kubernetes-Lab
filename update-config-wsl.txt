@@ -1,1 +1,0 @@
-cp ~/.kube/config /mnt/c/Users/TMaior/.kube/config
